@@ -1,14 +1,21 @@
 .cabecalho{
     display:flex;
     justify-content: space-around;
+    background-color:rgb(8, 147, 240);
+    height: 5%;
+    align-items: center;
 
 }
 .titulo{
-    font-size: 3rem;
-    color:aqua;
-    background-color: #000;
+    font-size: 2rem;
+    color:black;
 
 }
 .subtitulo{
     font-size: 2rem;
 }
+.logo {
+    width: 5%;
+    height: 5%;
+}
+

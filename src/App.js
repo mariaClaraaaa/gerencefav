@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Cabecalho from './componentes/Cabecalho'
 import Rodape from './componentes/Rodape'
+import Conteudo from './componentes/Conteudo'
 /*
 Arquoivo App JSX
 Componente funcional = Porque ele é uma função
@@ -11,9 +12,9 @@ function App() {
   return (
     /*O react substitui classname por claas porque é palavra executada no js*/
     <>
-    <img src = 'logo.png' alt='logotipo'></img>
-    <Cabecalho titulo = "Fav.io" subtitulo="O melhor gerenciador de favoritos da Internet Brasileira!"/>
-    <Rodape/>
+    <Cabecalho logo = 'favorito.png' titulo = "GerenceFav" subtitulo="O melhor gerenciador de favoritos da Internet Brasileira!"/>
+    <Conteudo conteudoFav =' lllllallaalalllala'/>
+    <Rodape insta = 'logotipo-do-instagram.png'/>
     </>
   );
 }

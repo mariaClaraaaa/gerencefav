@@ -1,0 +1,11 @@
+.rodape{
+    display: flex;
+    background-color: rgb(8, 147, 240);
+    width: 100%;
+    position: fixed;
+   
+}
+.insta{
+    width: 2%;
+    height: 2%;
+}
