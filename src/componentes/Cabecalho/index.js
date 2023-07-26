@@ -7,7 +7,6 @@ export default function Cabecalho(props) {
 
     <img className= {styles.logo} src ={props.logo} />
     <p className={styles.titulo}>{props.titulo}</p>
-    <p className={`${styles.titulo} ${styles.subtitulo}`}>{props.subtitulo}</p>
     </div>  
   )
 }

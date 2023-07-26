@@ -12,7 +12,7 @@ function App() {
   return (
     /*O react substitui classname por claas porque é palavra executada no js*/
     <>
-    <Cabecalho logo = 'favorito.png' titulo = "GerenceFav" subtitulo="O melhor gerenciador de favoritos da Internet Brasileira!"/>
+    <Cabecalho logo = 'favorito.png' titulo = "GerenceFav"/>
     <Conteudo conteudoFav =' lllllallaalalllala'/>
     <Rodape insta = 'logotipo-do-instagram.png'/>
     </>
