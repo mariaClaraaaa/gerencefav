@@ -4,11 +4,10 @@
     width: 100%;
     bottom: 0;
     position: fixed;
-    height: 5%;
-   
    
 }
-.insta{
+.insta , .face , .twitter{
     width: 2%;
     height: 2%;
+    margin: 10px;
 }
