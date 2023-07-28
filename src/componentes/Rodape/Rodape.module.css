@@ -7,7 +7,9 @@
    
 }
 .insta , .face , .twitter{
-    width: 2%;
-    height: 2%;
+    width: 2em;
+    height: 2em;
     margin: 10px;
+
+
 }

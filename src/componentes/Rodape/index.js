@@ -8,6 +8,8 @@ export default function Rodape(props) {
     <img className= {styles.face} src ={props.face} />
     <img className= {styles.twitter} src ={props.twitter} />
     </div>
+
+
   
   )
 }

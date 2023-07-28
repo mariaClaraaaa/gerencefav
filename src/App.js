@@ -2,7 +2,6 @@
 import './App.css';
 import Cabecalho from './componentes/Cabecalho'
 import Rodape from './componentes/Rodape'
-import Conteudo from './componentes/Conteudo'
 /*
 Arquoivo App JSX
 Componente funcional = Porque ele é uma função
