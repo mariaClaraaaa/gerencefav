@@ -14,9 +14,10 @@ function App() {
     /*O react substitui classname por claas porque é palavra executada no js*/
     <>
     <Cabecalho logo = 'favorito.png' titulo = "GerenceFav"/>
-    <Rodape insta = 'instagram.png' face = 'facebook.png' twitter = 'twitter.png'/>
-    <Estados/>
     <Conteudo/>
+    {/*<Estados/>*/}
+    <Rodape insta = 'instagram.png' face = 'facebook.png' twitter = 'twitter.png'/>
+    
     </>
   );
 }
