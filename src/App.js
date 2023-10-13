@@ -13,11 +13,14 @@ function App() {
   return (
     /*O react substitui classname por claas porque é palavra executada no js*/
     <>
+    <Tela1/>
+    <Tela2/>
     <Cabecalho logo = 'favorito.png' titulo = "GerenceFav"/>
-    <Conteudo/>
+    {/*<Conteudo/>*/}
     {/*<Estados/>*/}
     <Rodape insta = 'instagram.png' face = 'facebook.png' twitter = 'twitter.png'/>
     
+
     </>
   );
 }
