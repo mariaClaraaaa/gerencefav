@@ -34,7 +34,39 @@ const Tela1 = () => {
                  onChange={(evento) => { 
                     setNomelUsuario(evento.target.value);
                 }} 
-                ></input>
+                ></input><br />
+
+                <label>EMAIL:</label><br />
+                <input
+                type="email"
+                 name="email" 
+                 onChange={(evento) => { 
+                    setEmail(evento.target.value);
+                }} 
+                ></input><br />
+
+                <label>SENHA:</label><br />
+                <input
+                type="password"
+                 name="password" 
+                 onChange={(evento) => { 
+                    setSenhalUsuario(evento.target.value);
+                }} 
+                ></input><br />
+
+                <label>CONFIRME A SENHA:</label><br />
+                <input
+                type="password"
+                 name="password" 
+                 onChange={(evento) => { 
+                    setConfirSenhalUsuario(evento.target.value);
+                }} 
+                ></input><br />
+                <input type="button" value="Cadastrar" 
+                onClick={()=> salvarUsuario()}/>
+                
             </form>
         </div>
     )
+ 
+    export default Tela1
