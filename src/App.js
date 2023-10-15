@@ -5,7 +5,7 @@ import Rodape from './componentes/Rodape'
 import Estados from './componentes/Conteudo';
 import Conteudo from './componentes/Conteudo';
 import Tela1 from './componentes/Tela1';
-import Tela1 from './componentes/Tela2';
+import Tela2 from './componentes/Tela2';
 
 /*
 Arquoivo App JSX
