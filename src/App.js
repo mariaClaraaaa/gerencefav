@@ -2,8 +2,6 @@
 import './App.css';
 import Cabecalho from './componentes/Cabecalho'
 import Rodape from './componentes/Rodape'
-import Estados from './componentes/Conteudo';
-import Conteudo from './componentes/Conteudo';
 import Tela1 from './componentes/Tela1';
 import Tela2 from './componentes/Tela2';
 
@@ -20,8 +18,6 @@ function App() {
     <Cabecalho logo = 'favorito.png' titulo = "GerenceFav"/>
     <Tela1/>
     <Tela2/>
-    {/*<Conteudo/>*/}
-    {/*<Estados/>*/}
     <Rodape insta = 'instagram.png' face = 'facebook.png' twitter = 'twitter.png'/>
     
     </>

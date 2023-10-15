@@ -17,17 +17,17 @@ const Tela2 = () => {
             }
         } else {
             console.log("NÃO HÁ USUÁRIOS");
-
-    }   
- } 
-
+        }   
+ 
+ 
+    } 
  return (
     <div><h1>LOGIN</h1>
     <form>
         <label>EMAIL:</label><br />
         <input 
         type="email"
-        name = "email"
+        name="email"
         onChange ={(evento) => {
             setEmailUsuario(evento.target.value);
         }}
@@ -42,12 +42,12 @@ const Tela2 = () => {
         }}
         ></input><br />
 
-        <input type="button" value = "login" 
+        <input type="button" value = "Logar" 
         onClick={()=> logar()}/>
         
     </form>
     </div>
  )
-} 
+};
 
-export default Tela2
+export default Tela2;

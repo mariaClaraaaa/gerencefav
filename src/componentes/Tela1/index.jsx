@@ -14,7 +14,7 @@ const Tela1 = () => {
         }
     }, []);
 
-    function salvarUsuario() 
+    function salvarUsuario() {
         if (senha_usuario !== confirmSenha_usuario) {
             alert('Você não digitou a mesma senha!');
         } else{
@@ -23,6 +23,8 @@ const Tela1 = () => {
             localStorage.setItem("usuario", JSON.stringify(novosUsuarios));
         }
     }
+    }
+
 
     return (
         <div>
