@@ -10,7 +10,7 @@ const Tela1 = () => {
     useEffect(() => {
         const usuariosCadastrados = JSON.parse(localStorage.getItem("usuario"));
         if(usuariosCadastrados){
-            setUSuarios(usuariosCadastrados);
+            setUsuarios(usuariosCadastrados);
         }
     }, []);
 
@@ -21,9 +21,10 @@ const Tela1 = () => {
             const novosUsuarios = [...usuarios, {nome_usuario, email_usuario, senha_usuario}];
             setUsuarios(novosUsuarios);
             localStorage.setItem("usuario", JSON.stringify(novosUsuarios));
+            
         }
     }
-    }
+    
 
 
     return (
@@ -43,7 +44,7 @@ const Tela1 = () => {
                 type="email"
                  name="email" 
                  onChange={(evento) => { 
-                    setEmail(evento.target.value);
+                    setEmailUsuario(evento.target.value);
                 }} 
                 ></input><br />
 
@@ -69,6 +70,6 @@ const Tela1 = () => {
                 
             </form>
         </div>
-    )
- 
+    );
+};
     export default Tela1
